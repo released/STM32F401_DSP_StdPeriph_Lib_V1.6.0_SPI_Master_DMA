@@ -52,6 +52,12 @@
 
 /* Exported types ------------------------------------------------------------*/
 extern uint8_t DataBuffer[8];
+
+
+void Custom_SPI_DEVICE_TestCommand(void);
+void Custom_SPI_DEVICE_Master_Config(void);
+
+
 void SPI_WriteByte(uint8_t Data);
 void SPI_DMABufferStart(uint8_t pBuffer, uint16_t NumByteToWrite);
 void SPI_DMABufferWait(void);

@@ -51,7 +51,7 @@ void Button_Procedure(void)
 void Polling_Procedure(void)
 {
 	#if 1
-	Delay(3);
+	Delay(100);
 	Custom_SPI_DEVICE_TestCommand();
 	GPIO_ToggleBits(GPIOA,GPIO_Pin_5);	
 	#else
